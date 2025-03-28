@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Cadastro</title>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Formulário de contato</h1>
+            <form action="#">
+                <p><label for="nome">*Nome: <input id="nome" type="text"></label></p>
+                <p><label for="email">*Email: <input id="email" type="email"></label></p>
+                <p><label for="telefone">*Telefone: <input id="telefone" type="tel"></label></p>
+                <p><label for="setor">Setor 
+                    <select name="setor">
+                        <option value="valor1">Compras</option>
+                        <option value="valor2">Vendas</option>
+                        <option value="valor3">Financeiro</option>
+                        <option value="valor4">TI</option>
+                    </select>
+                    </label>  
+                </p>
+                <p><label for="mensagem">Mensagem: <textarea rows="10" cols="30" id="mensagem"></textarea></label></p>
+                <fieldset id="comunicacao">
+                    <legend>Comunicação Urgente</legend>
+                    <label for="sim"><input type="radio" name="comunicacao" id="sim"> Sim. </label>
+                    <label for="nao"><input type="radio" name="comunicacao" id="nao"> Não. </label>
+                </fieldset>
+                <fieldset id="conhecimento">
+                    <legend>Obtive conhecimento do projeto</legend>
+                    <label for="sim"><input type="checkbox" name="comunicacao" id="sim"> Buscador. </label>
+                    <label for="publicidade"><input type="checkbox" name="comunicacao" id="publicidade"> Publicidade em
+                        vídeo. </label>
+                    <label for="amigos"><input type="checkbox" name="comunicacao" id="amigos"> Amigos. </label>
+                    <label for="email1"><input type="checkbox" name="comunicacao" id="email1"> Email. </label>
+                    <label for="outros"><input type="checkbox" name="comunicacao" id="outros"> Outros. </label>
+                </fieldset>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>

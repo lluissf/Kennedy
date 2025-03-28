@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Cadastro de projetos</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Formulário de contato</h1>
+            <form action="#">
+                <p><label for="nome">*Título do projeto: <input id="nome" type="text"></label></p>
+                <p><label for="nome">*Coordenador do projeto: <input id="nome" type="text"></label></p>
+                <p><label for="nome">*Previsão de orçamento: R$<input id="nome" type="text"></label></p>
+                <p><label for="nome">*Data de inicio: <input id="nome" type="date"></label></p>
+                <p><label for="nome">*Data de fim: <input id="nome" type="date"></label></p>
+                <p><label for="setor">Tempo de Duração:
+                        <select name="setor" id="valor">
+                            <option value="valor3">Trimestral</option>
+                            <option value="valor1">Semanal</option>
+                            <option value="valor2">Mensal</option>
+                            <option value="valor4">Anual</option>
+                        </select>
+                    </label>
+                </p>
+
+                <fieldset id="conhecimento">
+                    <legend>Objetivos de Desenvolvimento Sustentável.</legend>
+                    <label for="sim"><input type="checkbox" name="comunicacao" id="sim"> Erradicação da pobreza.
+                    </label>
+                    <label for="publicidade"><input type="checkbox" name="comunicacao" id="publicidade"> Fome zero e
+                        agrícultura sustentável. </label>
+                    <label for="amigos"><input type="checkbox" name="comunicacao" id="amigos"> Saúde e bem-estar.
+                    </label>
+                    <label for="email1"><input type="checkbox" name="comunicacao" id="email1"> Educação de qualidade.
+                    </label>
+                    <label for="outros"><input type="checkbox" name="comunicacao" id="outros"> Igualdade de gênero.
+                    </label>
+                    <label for="outros"><input type="checkbox" name="comunicacao" id="outros"> Água potável e saneamento
+                        básico. </label>
+                    <label for="outros"><input type="checkbox" name="comunicacao" id="outros"> Energia limpa e
+                        acessível. </label>
+                    <label for="outros"><input type="checkbox" name="comunicacao" id="outros"> Trabalho decente e
+                        crescimento economico. </label>
+                    <label for="outros"><input type="checkbox" name="comunicacao" id="outros"> Indústria, inovação e
+                        infraestrutura. </label>
+                </fieldset>
+                <fieldset id="nivel_impacto">
+                    <legend>Nível do impacto</legend>
+                    <label for="regional"><input type="radio" name="nivel_impacto" id="regional"> Regional. </label>
+                    <label for="nacional"><input type="radio" name="nivel_impacto" id="nacional"> Nacioal. </label>
+                </fieldset>
+                <p><label for="outros"><input type="checkbox" name="comunicacao" id="outros"> Desejo receber
+                        notificações por email sobre outras chamdas.</label></p>
+                <button type="reset">Limpar</button>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
