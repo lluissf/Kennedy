@@ -1,0 +1,22 @@
+/*  Parte Principal do código CSS para o portfólio. */
+
+body {
+    color: #21243D;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    color: #21243D;
+    text-decoration: none;
+
+    &:hover {
+        color: #FF6464;
+    }
+}
+
+/*  Parte de Específicos.     */
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
