@@ -1,5 +1,7 @@
 /*  Parte Principal do código CSS para o portfólio. */
-
+html {
+    font-size: calc(15px + 0.390625vw);
+}
 body {
     color: #21243D;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -14,9 +16,58 @@ a {
     }
 }
 
+p {
+    line-height: 130%;
+}
+
 /*  Parte de Específicos.     */
 
 header nav ul li {
+    text-align: center;
+    padding: 10px 0;
+    /* display: inline-block; */
+    /* margin: 0 10px; */
+}
+
+/* Seção do Banner */
+section.banner {
+    text-align: center;
+    padding: 0 5% 0 5%;
+}
+section.banner h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px 0;
+}
+section.banner button {
+    background-color: #FF6464;
+    border: none;
+    color: white;
     display: inline-block;
-    margin: 0 10px;
+    margin: 10px 0 20px ;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+section.posts {
+    background-color: #EDF7FA;
+    padding: 10px;
+}
+section.posts h2 {
+    text-align: center;
+    margin: 15px;
+}
+section.posts ul li {
+    background-color: white;
+    padding: 15px;
+    margin: 12px 10px;
+}
+section.posts ul li h3 {
+    font-size: 1rem;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+section.posts ul li p {
+    font-size: 0.9rem;
+    margin: 0;
 }
