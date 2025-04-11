@@ -9,17 +9,16 @@ body {
 
 a {
     color: #21243D;
-    text-decoration: none;
-
-    &:hover {
-        color: #FF6464;
-    }
+    text-decoration: none; 
 }
 
 p {
     line-height: 130%;
 }
 
+img {
+    max-width: 100%; 
+}
 /*  Parte de Específicos.     */
 
 header nav ul li {
@@ -28,7 +27,10 @@ header nav ul li {
     /* display: inline-block; */
     /* margin: 0 10px; */
 }
-
+section h2 {
+    text-align: center;
+    margin: 15px;
+}
 /* Seção do Banner */
 section.banner {
     text-align: center;
@@ -53,21 +55,65 @@ section.posts {
     background-color: #EDF7FA;
     padding: 10px;
 }
-section.posts h2 {
-    text-align: center;
-    margin: 15px;
-}
+ 
 section.posts ul li {
     background-color: white;
     padding: 15px;
     margin: 12px 10px;
 }
 section.posts ul li h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0 0 10px 0;
     font-weight: bold;
 }
 section.posts ul li p {
     font-size: 0.9rem;
     margin: 0;
+    padding: 0 0 10px 0;
+}
+section.works {
+    padding: 20px 10px;
+    margin-bottom: 10rem;
+}
+
+section.works h3 {
+    font-size: 1.25rem;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+    margin: 10px 0 0 0;
+}
+section.works ul {
+    border-bottom: 1px solid #8695A4;
+}
+section.works ul li {
+    margin: 15px 0;
+}
+
+section.works ul li p {
+    color: #21243D;
+}
+section.works ul li p {
+    margin: 15px 0;
+}
+section.works ul li p.info {
+    color: #8695A4;
+}
+section.works ul li p.info span {
+    background-color: #142850;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+footer p{
+    font-size: 0.7rem;
+    margin: 10px 0;
+}
+footer a {
+    font-size: 2rem;
+    padding: 10px 15px;
 }
