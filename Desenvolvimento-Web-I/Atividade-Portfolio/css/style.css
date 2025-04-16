@@ -149,3 +149,47 @@ footer a {
     font-size: 2rem;
     padding: 10px 15px;
 }
+
+@media (min-width: 700px) { 
+    /* ajuste no topo */
+    header ul {
+        justify-content: right;
+        display: flex;
+    }
+    header ul li {
+        margin-right: 20px;
+    }
+    section h2 {
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    /* ajustando o banner */
+    section.banner {
+        display: flex;
+        flex-direction: row-reverse;
+        text-align: left;
+        margin: 10vw 7vw;
+    }
+    section.banner.texto {
+        margin-right: 7vw;
+    }
+    /* ajustando o posts */
+    section.posts {
+        padding: 1.2vw 10vw;
+    }
+    section.posts ul {
+        display: flex;
+    }
+    section.posts ul li p {
+        margin-top: 2vw;
+    }
+
+    /* ajustando o works */
+    section.works {
+        padding: 1.2vw 10vw;
+    }
+    section.posts ul {
+        display: flex;
+    }
+     
+ }
