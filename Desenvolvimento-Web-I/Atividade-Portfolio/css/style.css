@@ -75,7 +75,6 @@ section.works {
     padding: 20px 10px;
     margin-bottom: 10rem;
 }
-
 section.works h3 {
     font-size: 1.25rem;
     margin: 0 0 10px 0;
@@ -91,10 +90,8 @@ section.works ul li {
 
 section.works ul li p {
     color: #21243D;
-}
-section.works ul li p {
     margin: 15px 0;
-}
+} 
 section.works ul li p.info {
     color: #8695A4;
 }
@@ -105,6 +102,41 @@ section.works ul li p.info span {
     padding: 5px 10px;
     border-radius: 20px;
 }
+
+section.works-ft {
+    padding: 20px 10px;
+    margin-bottom: 10rem;
+}
+section.works-ft h1 { 
+    font-size: 2rem;
+    margin: 10px 0;
+}
+section.works-ft h3 {
+    font-size: 1.25rem;
+    margin: 0 0 10px 0;
+    font-weight: bold; 
+}
+
+section.works-ft ul li {
+    margin: 20px 0;
+}
+
+section.works-ft ul li p {
+    color: #21243D;
+    margin: 15px 0;
+}
+ 
+section.works-ft ul li p.info span {
+    background-color: #FF7C7C;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+section.works-ft ul li p.info {
+    font-weight: bold;
+}
+
 footer {
     padding: 20px 0;
     text-align: center;
